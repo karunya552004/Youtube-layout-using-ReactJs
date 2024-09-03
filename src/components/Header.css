@@ -1,0 +1,42 @@
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 5px;
+  font-size: 30px; /* Adjusted to be more reasonable */
+}
+
+.tube {
+  color: red;
+  font-size: 30px; /* Adjusted for consistency */
+  margin-right: 10px;
+}
+
+.header__center {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.searchInput {
+  width: 50%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+}
